@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "streamfunctions"
+version = "0.0.1"
+dependencies = [
+    "numpy>=1.21"
+]
+authors = [
+  { name="Oscar Tovey Garcia", email="otoveyg@gmail.com" },
+]
+description = "Python module for calculating and visualising stream functions from velocity components on a staggered C-grid"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/oscarjtg/streamfunctions"
+Issues = "https://github.com/oscarjtg/streamfunctions/issues"
